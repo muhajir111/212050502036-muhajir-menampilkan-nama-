@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-24 09.09.30 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC1PNEg2NVYwODsyMDIyLTA1LTI0OzA2LjMwLjUzIFBNOzI3MzA="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1PNEg2NVYwODsyMDIyLTA1LTI0OzA5LjA5LjMwIFBNOzQ7Mjg0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="Integer" array="False" size=""/>
+            <input variable="nama"/>
+            <if expression="nama &lt;100">
+                <then>
+                    <output expression="&quot;fiki&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nama &lt; 150">
+                        <then>
+                            <output expression="&quot;tegar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nama &lt; 200">
+                                <then>
+                                    <output expression="&quot;sartol&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;avatar&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
